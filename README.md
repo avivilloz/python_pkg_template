@@ -10,7 +10,7 @@
 
 Run the following command in your python venv:
 
-```sh
+```bash
 pip install git+https://github.com/avivilloz/<PKG-NAME>.git@main#egg=<PKG-NAME>
 ```
 
@@ -22,7 +22,7 @@ git+https://github.com/avivilloz/<PKG-NAME>.git@main#egg=<PKG-NAME>
 
 And run the following command:
 
-```sh
+```bash
 pip install -r requirements.txt
 ```
 
