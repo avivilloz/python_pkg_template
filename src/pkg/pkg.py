@@ -1,2 +1,1 @@
-def pkg_function():
-    pass
+__all__ = []

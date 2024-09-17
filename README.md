@@ -1,23 +1,23 @@
 # PKG
 
-<SHORT-PKG-DESCRIPTION>
+short_pkg_description
 
 ## Description:
 
-<LONG-PKG-DESCRIPTION>
+long_pkg_description
 
 ## How to install:
 
 Run the following command in your python venv:
 
 ```bash
-pip install git+https://github.com/avivilloz/<PKG-NAME>.git@main#egg=<PKG-NAME>
+pip install git+https://github.com/avivilloz/pkg_name.git@main#egg=pkg_name
 ```
 
 Or add the following line to your project's `requirement.txt` file:
 
 ```
-git+https://github.com/avivilloz/<PKG-NAME>.git@main#egg=<PKG-NAME>
+git+https://github.com/avivilloz/pkg_name.git@main#egg=pkg_name
 ```
 
 And run the following command:
@@ -30,7 +30,7 @@ pip install -r requirements.txt
 
 `file.py`
 ```python
-from <PKG-NAME> import <PKG-FUNCTION>
+from pkg_name import pkg_function
 
-# Use <PKG-FUNCTION>
+# Use pkg_function
 ```
